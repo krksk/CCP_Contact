@@ -17,4 +17,20 @@ svg {margin-top: 60px; position: fixed; z-index: 2; left:-8px;}
 #sub-menu > li {padding: 20px 25px; border-bottom: 1px solid #222222;}
 #sub-menu > li >  a {color: rgba(255,255,255,0.6); text-decoration: none;}
 
-#footer{font-family: "Noto Serif KR", serif; display: block; font-size:14px; color: white; top:-50px; width: 600px; margin:auto; position: relative; text-align: center;}
+#footer{font-family: "Noto Serif KR", serif; display: block; font-size:14px; color: white; top:1100px; width: 600px; margin:auto; position: relative; text-align: center;}
+
+/*Inquiry*/
+#contact_inquiry{font-family: "Noto Serif KR", serif; font-size:35px; color: #cccccc; left:26%; top:220px; position: absolute;}
+#ci_contents{font-family: "Noto Serif KR", serif; width: 460px; font-size:18px; color: #cccccc; left:26%; line-height: 1.75; top:290px; position: absolute;}
+
+#container_1{font-family: "Noto Serif KR", serif; font-size:13px; color: #cccccc; height: 25px; left:25.8%; top:440px; position: relative;}
+#container_2{font-family: "Noto Serif KR", serif; font-size:13px; color: #cccccc; height: 25px; left:26.8%; top:440px; position: relative;}
+#container_3{font-family: "Noto Serif KR", serif; font-size:13px; color: #cccccc; height: 25px; left:26%; top:470px; position: absolute;}
+#container_4{font-family: "Noto Serif KR", serif; font-size:13px; color: #cccccc; height: 200px; left:26%; top:540px; position: absolute;}
+
+#container_1_title{font-family: "Noto Serif KR", serif; font-size:14px; color: #cccccc; left:26%; top:370px; position: absolute;}
+#container_2_title{font-family: "Noto Serif KR", serif; font-size:14px; color: #cccccc; left:26%; top:440px; position: absolute;}
+#container_3_title{font-family: "Noto Serif KR", serif; font-size:14px; color: #cccccc; left:26%; top:510px; position: absolute;}
+
+#contact_us{font-family: "Noto Serif KR", serif; font-size:35px; color: #cccccc; left:54%; top:220px; position: absolute;}
+#my_email{font-family: "Noto Serif KR", serif; width: 400px; font-size:15px; color: #cccccc; left:54%; top:726px; position: absolute;}
