@@ -6,13 +6,14 @@
 <link rel="stylesheet" href="source/main_style.css">
 <link href="main_style.css" rel="stylesheet" type="text/css"/>
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cantata+One&display=swap" rel="stylesheet">
 </head>
 <body>
   <a href="https://krksk.github.io/CCP_Main/">
     <div id="logo_type">
       <div id="logoSpread">Cold Case Profiling
       </div>
-      <img src="source/logoType.png" style="width: 1.7vw; height: 1.7vw;">
+      <img src="source/logoType.png" style="width: 50px; height: 40px;">
     </div>
     </a>
   <div id="nav_menu">
@@ -31,22 +32,42 @@
       </tr>
     </table>
   </div>
-  <svg width="100%">
-	<rect width="100%" height="3.5vw" fill="black"></rect>
+  <svg width="101%">
+	<rect width="100%" height="80px" fill="black"></rect>
   </svg>
-  <div id="footer">Copyrightⓒ 2019/All Rights Reserved - KSK</div>
-  <div id="contact_inquiry">사건 제보 문의</div>
-  <div id="ci_contents">다른 미해결 사건에 대한 제보를 해주시면 프로파일링 목록에 새로 추가하겠습니다.</div>
-  <div>
-  <input type="text" id="container_1" placeholder="성" size="25" maxlength="2" required>
-  <input type="text" id="container_2" placeholder="이름" size="25" maxlength="4" required>
-  <input type="text" id="container_3" placeholder="@" size="60" required>
-  <input type="text" id="container_4" placeholder="코멘트" size="60" required>
+
+  <div id="report_title">프로젝트 문의 / 사건 제보</div>
+  <div id="report_title_contents">프로젝트에 대해 궁금하신 사항이나 개선할 점이 보인다면 해당 페이지에서 문의해주시기 바랍니다. 또, 프로파일링 목록중 추가적인 제보 사항이나 의견이 있다면 새로 업데이트하겠습니다. 단, 장난식은 사절하겠습니다. </div>
+  <video id="report_video" src="source/report_video.mp4" type="video/mp4" autoplay loop muted></video>
+  <div id="power_container">
+    <div id="container_contents">
+      <h1>문의 정보</h1>
+      <p>&nbsp&nbsp성함 *</p>
+        &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:35px;" maxlength="10" required>
+      <br>
+      <p>&nbsp&nbspEmail *</p>
+        &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:35px;" maxlength="30" required>
+      <br>
+      <p>&nbsp&nbspMessage *</p>
+        &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:200px;" required>
+        <br><br><hr>
+      <h1>사건 보고</h1>
+      <p>&nbsp&nbsp사건 번호</p>
+        &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:35px;" maxlength="30">
+      <br>
+      <p>&nbsp&nbsp보고 내용</p>
+        &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:200px;">
+    </div>
+    <div id="contact_us">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <h3>Cold Case Profiling</h3>
+      <h3>미제 사건 프로파일링 프로젝트</h3>
+      <h3>KSK</h3>
+      <br>
+      <h3>cooling343@gmail.com</h3>
+      <h3>Insta @_krksk</h3>
+    </div>
   </div>
-  <div id="container_1_title">성함</div>
-  <div id="container_2_title">이메일</div>
-  <div id="container_3_title">사건 제보</div>
-  <div id="contact_us">Contact us</div>
-  <div id="my_email">email : cooling343@gmail.com</div>
+  <div id="footer">Copyrightⓒ 2019/All Rights Reserved - KSK</div>
 </body>
 </html>
