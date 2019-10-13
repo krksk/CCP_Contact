@@ -43,13 +43,13 @@
     <div id="container_contents">
       <h1>문의 정보</h1>
       <p>&nbsp&nbsp성함 *</p>
-        &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:35px; color:#cccccc;" maxlength="10" required>
+        &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:35px;" maxlength="10" required>
       <br>
       <p>&nbsp&nbspEmail *</p>
         &nbsp&nbsp&nbsp<input type="email" id="container_1" size="120" style="height:35px;" maxlength="30" required>
       <br>
       <p>&nbsp&nbspMessage *</p>
-        &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:200px;" required>
+        &nbsp&nbsp&nbsp<textarea rows="60" cols="95" id="container_1" size="110" style="height:200px;" wrap="hard" required></textarea>
         <br><br><hr>
       <h1>사건 보고</h1>
       <p>&nbsp&nbsp사건 번호</p>
@@ -60,23 +60,26 @@
       </select>
       <br>
       <p>&nbsp&nbsp보고 내용</p>
-        &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:200px;">
+        &nbsp&nbsp&nbsp<textarea rows="60" cols="95" id="container_1" size="110" style="height:200px;" wrap="hard" required></textarea>
       <br>
       <br>
-      <form action="/examples/media/request.php">
-      &nbsp&nbsp&nbsp<input type="submit" value="submit" id="container_1" style="padding:12px; width:120px; text-align: center;">
-      </form>
+      &nbsp&nbsp&nbsp<input type="submit" value="submit" onclick="alertDialogBox()" id="container_1" style="padding:12px; width:120px; text-align: center;">
     </div>
     <div id="contact_us">
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <h3>Cold Case Profiling</h3>
-      <h3>미제 사건 프로파일링 프로젝트</h3>
-      <h3>KSK</h3>
+      <h4>Cold Case Profiling</h4>
+      <h4>미제 사건 프로파일링 프로젝트</h4>
+      <h4>KSK</h4>
       <br>
-      <h3>cooling343@gmail.com</h3>
-      <h3>Insta : @_krksk</h3>
+      <h4>cooling343@gmail.com</h4>
+      <h4>Insta : @_krksk</h4>
     </div>
   </div>
   <div id="footer">Copyrightⓒ 2019/All Rights Reserved - KSK</div>
+  <script>
+		function alertDialogBox() {
+			alert("전송되었습니다.");
+		}
+	</script>
 </body>
 </html>
