@@ -38,25 +38,34 @@
 
   <div id="report_title">프로젝트 문의 / 사건 제보</div>
   <div id="report_title_contents">프로젝트에 대해 궁금하신 사항이나 개선할 점이 보인다면 해당 페이지에서 문의해주시기 바랍니다. 또, 프로파일링 목록중 추가적인 제보 사항이나 의견이 있다면 새로 업데이트하겠습니다. 단, 장난식은 사절하겠습니다. </div>
-  <video id="report_video" src="source/report_video.mp4" type="video/mp4" autoplay loop muted></video>
+  <img id="report_video" src="source/background.jpg">
   <div id="power_container">
     <div id="container_contents">
       <h1>문의 정보</h1>
       <p>&nbsp&nbsp성함 *</p>
-        &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:35px;" maxlength="10" required>
+        &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:35px; color:#cccccc;" maxlength="10" required>
       <br>
       <p>&nbsp&nbspEmail *</p>
-        &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:35px;" maxlength="30" required>
+        &nbsp&nbsp&nbsp<input type="email" id="container_1" size="120" style="height:35px;" maxlength="30" required>
       <br>
       <p>&nbsp&nbspMessage *</p>
         &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:200px;" required>
         <br><br><hr>
       <h1>사건 보고</h1>
       <p>&nbsp&nbsp사건 번호</p>
-        &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:35px;" maxlength="30">
+      &nbsp&nbsp&nbsp<select id="container_1" style="padding:10px;">
+        <option selected> 1. 송혜희 양 실종 사건
+        <option> 2. 부산 아동 연쇄 살인 사건
+        <option> 3. 사바이 주점 학살 사건
+      </select>
       <br>
       <p>&nbsp&nbsp보고 내용</p>
         &nbsp&nbsp&nbsp<input type="text" id="container_1" size="120" style="height:200px;">
+      <br>
+      <br>
+      <form action="/examples/media/request.php">
+      &nbsp&nbsp&nbsp<input type="submit" value="submit" id="container_1" style="padding:12px; width:120px; text-align: center;">
+      </form>
     </div>
     <div id="contact_us">
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
